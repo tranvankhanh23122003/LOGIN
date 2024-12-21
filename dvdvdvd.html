@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Import font từ Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    /* CSS tối ưu từ trước */
+    /* Áp dụng CSS từ bản trước ở đây */
+  </style>
+</head>
+<body>
+  <div class="form">
+    <h3>Login</h3>
+    <form action="#" method="POST">
+      <div class="username">
+        <i class="icon fa fa-user"></i>
+        <input type="text" placeholder="Username" name="username" required>
+      </div>
+      <div class="password">
+        <i class="icon fa fa-lock"></i>
+        <input type="password" placeholder="Password" name="password" required>
+      </div>
+      <div class="buttons">
+        <div class="remember">
+          <input type="checkbox" class="checkbox" id="remember">
+          <label for="remember">Remember me</label>
+        </div>
+        <a href="#">Forgot password?</a>
+      </div>
+      <div class="btn-box">
+        <a href="#" onclick="document.forms[0].submit(); return false;">Login</a>
+      </div>
+    </form>
+    <div class="register">
+      <p>Don't have an account? <a href="#">Register</a></p>
+    </div>
+  </div>
+
+  <!-- Import Font Awesome để sử dụng icon -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
